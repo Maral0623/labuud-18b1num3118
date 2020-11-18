@@ -5,14 +5,11 @@ body > div {
   position: relative;
   min-width: 100px;
   min-height: 350px;
-  background: linear-gradient(
-    32deg,
-    rgba(238, 136, 207, 1) 0%,
-    rgba(45, 253, 237, 1) 100%
-  );
+  background: radial-gradient(lightcyan 15%, cyan 35%, lavender 50%);
   border-radius: 4px;
   margin-right: 10px;
   font-size: 40px;
+  font-family: Tahoma;
   flex-grow: 1;
   transition: 250ms;
 }
@@ -27,10 +24,9 @@ body > div::first-letter {
 }
 body > div:hover {
   flex-grow: 2;
-  animation: nud_ydraana ease forwards 250ms infinite;
+  animation: ongo_uussan ease forwards 250ms infinite;
 }
-
-@keyframes nud_ydraana {
+@keyframes mymove {
   0% {
     top: 0;
   }
